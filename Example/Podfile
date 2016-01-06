@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'FourthCCDemo_Example', :exclusive => true do
+  pod "FourthCCDemo", :path => "../"
+end
+
+target 'FourthCCDemo_Tests', :exclusive => true do
+  pod "FourthCCDemo", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
