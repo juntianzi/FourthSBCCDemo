@@ -1,0 +1,25 @@
+{
+  "name": "FourthCCDemo",
+  "version": "0.1.0",
+  "summary": "A short description of FourthCCDemo.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/FourthCCDemo",
+  "license": "MIT",
+  "authors": {
+    "juntianzi": "chenfengde9202@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/FourthCCDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "FourthCCDemo": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

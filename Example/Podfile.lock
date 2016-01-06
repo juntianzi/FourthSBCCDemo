@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - FourthCCDemo (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FourthCCDemo (from `../`)
+
+EXTERNAL SOURCES:
+  FourthCCDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  FourthCCDemo: 2b00c1aa3a2f40272f074555186c1b2a8782aab7
+
+COCOAPODS: 0.39.0

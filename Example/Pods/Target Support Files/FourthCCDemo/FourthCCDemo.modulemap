@@ -1,0 +1,6 @@
+framework module FourthCCDemo {
+  umbrella header "FourthCCDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
